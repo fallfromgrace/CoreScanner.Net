@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CA6B34FD-E28C-48BB-BCF3-2F77C767C5ED}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Extensions.UnitTests", "CoreScanner.Extensions.Tests\CoreScanner.Extensions.UnitTests.csproj", "{4B96A357-C8FF-46BD-8400-5C9ADE007D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Light", "..\Light\Light\Light.csproj", "{94D8E582-B456-4692-8E03-0489C4DC4954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Extensions.Console", "CoreScanner.Extensions.ConsoleTest\CoreScanner.Extensions.Console.csproj", "{82785F2F-B313-4729-882C-412BF6182795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Extensions", "CoreScanner.Extensions\CoreScanner.Extensions.csproj", "{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Extensions.NuGet", "CoreScanner.Extensions.NuGet\CoreScanner.Extensions.NuGet.csproj", "{0451BAEF-DF2E-4B98-8644-94EE9415E389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{9439D5AD-217B-4C14-B95E-BFE8B9D749B9}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Motorola_CoreScanner_Driver_(x64)_v2.05.0004.exe = Dependencies\Motorola_CoreScanner_Driver_(x64)_v2.05.0004.exe
+		Dependencies\Motorola_CoreScanner_Driver_(x86)_v2.05.0004.exe = Dependencies\Motorola_CoreScanner_Driver_(x86)_v2.05.0004.exe
+		Dependencies\Motorola_Scanner_SDK_(32bit)_v2.04.0012.exe = Dependencies\Motorola_Scanner_SDK_(32bit)_v2.04.0012.exe
+		Dependencies\Motorola_Scanner_SDK_(64bit)_v2.04.0012.exe = Dependencies\Motorola_Scanner_SDK_(64bit)_v2.04.0012.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{E632FE70-BE5D-4EB4-BAE9-7452753C3247}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{02CC10F2-F11C-43F4-BCC5-F83D6695A9ED}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\DS3578 With FIPS Digital Scanner Product Reference Guide.pdf = Documentation\DS3578 With FIPS Digital Scanner Product Reference Guide.pdf
+		Documentation\Motorola Scanner SDK Attribute Dictionary.pdf = Documentation\Motorola Scanner SDK Attribute Dictionary.pdf
+		Documentation\Motorola Scanner SDK Developer's Guide.pdf = Documentation\Motorola Scanner SDK Developer's Guide.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451BAEF-DF2E-4B98-8644-94EE9415E389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94D8E582-B456-4692-8E03-0489C4DC4954} = {9439D5AD-217B-4C14-B95E-BFE8B9D749B9}
+	EndGlobalSection
+EndGlobal
