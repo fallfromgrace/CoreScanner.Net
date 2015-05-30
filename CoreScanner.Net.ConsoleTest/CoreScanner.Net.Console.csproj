@@ -66,7 +66,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CoreScanner.Extensions\CoreScanner.Net.csproj">
+    <ProjectReference Include="..\CoreScanner.Net\CoreScanner.Net.csproj">
       <Project>{d8fe7649-26d2-4ce7-80d8-a22f31fac5ff}</Project>
       <Name>CoreScanner.Net</Name>
     </ProjectReference>
