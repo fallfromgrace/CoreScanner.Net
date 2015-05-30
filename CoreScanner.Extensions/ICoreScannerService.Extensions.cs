@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reactive.Linq;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// 

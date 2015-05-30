@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// 

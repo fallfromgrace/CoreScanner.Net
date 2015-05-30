@@ -3,7 +3,7 @@ using System.Linq;
 using System.Xml.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CoreScanner.Extensions.UnitTests
+namespace CoreScanner.Net.UnitTests
 {
     [TestClass]
     public class UnitTest1

@@ -5,7 +5,7 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Xml.Linq;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// Device information concerning a Motorola scanner.

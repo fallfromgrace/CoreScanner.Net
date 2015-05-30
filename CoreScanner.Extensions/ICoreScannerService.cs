@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// Specifies the basic abilities of the motorola scanner service.

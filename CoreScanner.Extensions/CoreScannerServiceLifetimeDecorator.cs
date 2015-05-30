@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     //internal class RefCounter
     //{

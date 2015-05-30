@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// Return code from a CoreScanner function.

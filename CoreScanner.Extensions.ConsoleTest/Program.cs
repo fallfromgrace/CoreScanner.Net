@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Reactive.Linq;
 using Light.Linq;
 
-namespace CoreScanner.Extensions.Monitor
+namespace CoreScanner.Net.Monitor
 {
     class Program
     {

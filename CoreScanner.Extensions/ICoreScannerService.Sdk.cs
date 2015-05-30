@@ -6,7 +6,7 @@ using System.Diagnostics.Contracts;
 using Light;
 using Light.Linq;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// 

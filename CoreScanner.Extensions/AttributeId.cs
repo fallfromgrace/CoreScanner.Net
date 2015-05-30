@@ -1,4 +1,4 @@
-﻿namespace CoreScanner.Extensions
+﻿namespace CoreScanner.Net
 {
     /// <summary>
     /// 

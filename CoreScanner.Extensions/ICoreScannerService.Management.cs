@@ -7,7 +7,7 @@ using System.Reactive.Linq;
 using System.Threading;
 using System.Xml.Linq;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// 

@@ -7,8 +7,8 @@
     <ProjectGuid>{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CoreScanner.Extensions</RootNamespace>
-    <AssemblyName>CoreScanner.Extensions</AssemblyName>
+    <RootNamespace>CoreScanner.Net</RootNamespace>
+    <AssemblyName>CoreScanner.Net</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -144,6 +144,7 @@
     <Compile Include="XmlName.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="CoreScanner.Net.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -157,12 +158,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Light\Light\Light.csproj">
-      <Project>{94d8e582-b456-4692-8e03-0489c4dc4954}</Project>
-      <Name>Light</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -171,6 +166,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir).nuget\NuGet.exe pack $(ProjectPath) -IncludeReferencedProjects -OutputDirectory $(SolutionDir)..\..\Packages\Nuget\</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

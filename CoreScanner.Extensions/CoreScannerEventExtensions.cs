@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Reactive.Linq;
 using CoreScanner;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     internal static class CoreScannerEventExtensions
     {

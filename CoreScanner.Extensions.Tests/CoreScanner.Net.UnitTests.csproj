@@ -6,8 +6,8 @@
     <ProjectGuid>{4B96A357-C8FF-46BD-8400-5C9ADE007D83}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CoreScanner.Extensions.UnitTests</RootNamespace>
-    <AssemblyName>CoreScanner.Extensions.UnitTests</AssemblyName>
+    <RootNamespace>CoreScanner.Net.Tests</RootNamespace>
+    <AssemblyName>CoreScanner.Net.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -73,13 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Light\Light\Light.csproj">
-      <Project>{94d8e582-b456-4692-8e03-0489c4dc4954}</Project>
-      <Name>Light</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CoreScanner.Extensions\CoreScanner.Extensions.csproj">
+    <ProjectReference Include="..\CoreScanner.Extensions\CoreScanner.Net.csproj">
       <Project>{d8fe7649-26d2-4ce7-80d8-a22f31fac5ff}</Project>
-      <Name>CoreScanner.Extensions</Name>
+      <Name>CoreScanner.Net</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

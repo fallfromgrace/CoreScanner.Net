@@ -1,7 +1,7 @@
 ﻿using Light;
 using System;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// 

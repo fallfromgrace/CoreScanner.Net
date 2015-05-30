@@ -2,7 +2,7 @@
 using System.Diagnostics.Contracts;
 using System.Xml.Linq;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// 

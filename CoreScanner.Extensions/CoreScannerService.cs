@@ -7,7 +7,7 @@ using System.Reactive.Linq;
 using System.Runtime.InteropServices;
 using System.Xml.Linq;
 
-namespace CoreScanner.Extensions
+namespace CoreScanner.Net
 {
     /// <summary>
     /// Wrapper around the CoreScanner library.
