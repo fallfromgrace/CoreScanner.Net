@@ -1,4 +1,4 @@
-﻿using Light;
+﻿using More.Net;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
@@ -124,7 +124,6 @@ namespace CoreScanner.Net
         /// <returns></returns>
         public String ExecuteCommand(OperationCode operation, String inXml)
         {
-            Contract.Requires(inXml != null);
             Contract.Ensures(Contract.Result<String>() != null);
 
             Int32 status;
@@ -144,8 +143,6 @@ namespace CoreScanner.Net
         /// <returns></returns>
         public void ExecuteCommandAsync(OperationCode operation, String inXml)
         {
-            Contract.Requires(inXml != null);
-
             Int32 status;
             this.coreScanner
                 .ExecCommandAsync((Int32)operation, ref inXml, out status);

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using System.Diagnostics.Contracts;
-using Light;
-using Light.Linq;
+using More.Net;
+using More.Net.Linq;
 
 namespace CoreScanner.Net
 {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 
 namespace CoreScanner.Net
 {
@@ -9,6 +10,7 @@ namespace CoreScanner.Net
     /// <remarks>
     /// This interface is used to define an implementation that wraps around the CoreScanner API.
     /// </remarks>
+    [ContractClass(typeof(ICoreScannerServiceContract))]
     public interface ICoreScannerService// : IDisposable
     {
         /// <summary>

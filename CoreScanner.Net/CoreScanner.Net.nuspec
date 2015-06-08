@@ -3,6 +3,17 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
+    <title>$id$</title>
     <authors>Light</authors>
+    <owners>Light</owners>
+    <description>More stuff.</description>
+    <summary>More stuff.</summary>
+    <releaseNotes></releaseNotes>
+    <language>en-US</language>
+    <!--<projectUrl></projectUrl>-->
+    <!--<licenseUrl></licenseUrl>-->
+    <!--<iconUrl></iconUrl>-->
+    <!--<copyright></copyright>-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
 </package>

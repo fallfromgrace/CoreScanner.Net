@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reactive.Linq;
-using Light.Linq;
+using More.Net.Linq;
 
 namespace CoreScanner.Net.Monitor
 {

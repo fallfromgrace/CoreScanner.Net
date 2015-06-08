@@ -12,8 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CA6B34
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Net.UnitTests", "CoreScanner.Net.Tests\CoreScanner.Net.UnitTests.csproj", "{4B96A357-C8FF-46BD-8400-5C9ADE007D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Net.Console", "CoreScanner.Net.ConsoleTest\CoreScanner.Net.Console.csproj", "{82785F2F-B313-4729-882C-412BF6182795}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Net", "CoreScanner.Net\CoreScanner.Net.csproj", "{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{9439D5AD-217B-4C14-B95E-BFE8B9D749B9}"
@@ -39,6 +37,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		Documentation\Motorola Scanner SDK Developer's Guide.pdf = Documentation\Motorola Scanner SDK Developer's Guide.pdf
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45392C38-4B9F-4455-A889-6E9CC984EC42}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreScanner.Net.Console", "CoreScanner.Net.Console\CoreScanner.Net.Console.csproj", "{82785F2F-B313-4729-882C-412BF6182795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,14 +55,14 @@ Global
 		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B96A357-C8FF-46BD-8400-5C9ADE007D83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82785F2F-B313-4729-882C-412BF6182795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82785F2F-B313-4729-882C-412BF6182795}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82785F2F-B313-4729-882C-412BF6182795}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82785F2F-B313-4729-882C-412BF6182795}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8FE7649-26D2-4CE7-80D8-A22F31FAC5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82785F2F-B313-4729-882C-412BF6182795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
